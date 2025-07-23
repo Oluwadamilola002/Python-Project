@@ -63,6 +63,7 @@ df['Cost'] = df['Cost'].replace('[\$,]', '', regex=True).astype(float)
 df['Mileage'] = df['Mileage'].replace('[,]', '', regex=True).astype(int)
 
 # Verify data types
+print(df.dtypes) </pre>
 
 
 ### Results
